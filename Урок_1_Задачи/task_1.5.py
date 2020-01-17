@@ -33,7 +33,7 @@ else:
     print('Фирма работает с прибылью')
     print('Рентабельность: ', profitability)
     employees = int(input('Введите, сколько человек работает в фирме: '))
-    profit_per_employee = (revenue - costs) / employees
+    profit_per_employee = (revenue - costs) // employees
     print('Прибыль в расчете на одного сотрудника: ', profit_per_employee)
 
 
